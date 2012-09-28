@@ -8,8 +8,8 @@
 
 defined('MOODLE_INTERNAL') || die();
 
-$plugin->version  = 2012071600;
+$plugin->version  = 2012102800;
 $plugin->requires = 2011120500;   // Requires Moodle 2.2 or later
-$plugin->release = '1.1 (Build: 2012071600)';
+$plugin->release = '1.1 (Build: 2012182800)';
 $plugin->maturity = MATURITY_STABLE;             // this version's maturity level
 $plugin->component = 'block_linkedin'; // Full name of the plugin (used for diagnostics)

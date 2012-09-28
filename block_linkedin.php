@@ -74,7 +74,7 @@ class block_linkedin extends block_base {
 		// LOGIN WITH LINKEDIN BOX
 		if (!isloggedin() or isguestuser()) {
             $linkedin->getRequestToken();
-            $_SESSION['requestToken'] = serialize($linkedin->request_token);
+            //$_SESSION['requestToken'] = serialize($linkedin->request_token);
 
             $this->content->text .= html_writer::start_tag('div',array('id'=>'linkedincontainer'));
             $this->content->text .= html_writer::start_tag('div',array('id'=>'linkedinwrapper'));
